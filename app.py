@@ -3,8 +3,7 @@ import os
 
 app = Flask(__name__)
 
-SOCIAL_URL = "https://socialstream.ninja/dock.html?session=cxbfKsNRwF&password=false&savesingle&fadein&transparent&hidemenu"
-
+SOCIAL_URL = "https://socialstream.ninja/dock.html?session=cxbfKsNRwF&transparent&fadein&hidemenu"
 HTML_PAGE = f"""
 <!DOCTYPE html>
 <html>
